@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "/unize.png",
+    "videoUrl": "",
+    "hostedUrl": "https://api.unize.org/",
+    "title": "Unize API",
+    "description": "The Unize API is an advanced tool designed to transform large text inputs into knowledge graphs, making data more structured, accessible, and insightful for the UNIZE app’s AI section. It allows for seamless creation, management, and retrieval of data in graph form.",
+    "features": {
+      "Text to Knowledge Graph": "Processes text into dynamic, scalable knowledge graphs.",
+      "Graph Coherence": "Ensures uniqueness across nodes and relationships.",
+      "Graph Management": "Users can create graphs, add documents, and provide metadata (goal, text, source details).",
+      "Visualization": "View graphs with nodes, relationships, and node/relationships details. Features like toggling source nodes, visualizing relationships, and viewing history enhance usability.",
+      "Logs": "Logs are accessible for viewing with a custom search feature and can be downloaded.",
+      "Cypher Queries": "Cypher data for graph structures can be accessed, copied, and downloaded.",
+      "Document Display": "User-submitted data for graph creation and document addition is displayed, providing insight into each graph's development.",
+      "Actions": "Perform actions like viewing document histories, generating Cypher queries, and accessing logs.",
+      "API Keys": "Users can generate, delete, and manage API keys for secure access.",
+      "Billing Dashboard": "Track balance, cost-per-usage, and transaction history."
+    },
+    "tools": [
+      "React",
+      "Typescript",
+      "Redux Toolkit",
+      "MaterialUI",
+      "Cytoscape",
+      "Monaco Editor"
+    ],
+    "responsibilities": ["End to end frontend"],
+    "logo": "https://cloud-1de12d.b-cdn.net/media/iW=192&iH=any/a97959f3dce3258a9dd6fd18bb9ece84.png"
+  },
+  {
+    "id": 2,
+    "thumbnail": "/foodlogai.png",
+    "videoUrl": "",
+    "hostedUrl": "https://foodlogai.innercircletalent.com/",
+    "title": "FoodLogAI",
+    "description": "FoodLogAI is an auxiliary tool for Cronometer, designed to streamline diet tracking by automating diary updates through an intuitive, chat-based interface. The app enhances the user experience by enabling the quick addition of new diary entries, category updates, and simplified meal tracking, empowering users to manage their dietary information directly from FoodLogAI.",
+    "features": {
+      "Cronometer Authentication": "Securely authenticate and connect FoodLogAI with Cronometer for a seamless experience.",
+      "Diary Group Management": "Easily add or update Cronometer’s 8 diary groups through a guided onboarding process, with successful updates instantly reflected in Cronometer.",
+      "Chat-Based Interface": "Interact with FoodLogAI in a conversational, chat-like format to make changes to your diet schedule and diary groups.",
+      "Diet Schedule Commands": "Use natural language commands to update or modify your diet entries according to the diary groups set in Cronometer.",
+      "Intelligent Responses": "Receive context-sensitive responses for unsupported commands or guidance on actions not yet supported, enhancing the app’s usability.",
+      "Error Handling": "FoodLogAI provides clear feedback if an action cannot be performed, guiding users to alternatives or suggesting manual entries."
+    },
+    "tools": ["React", "Typescript", "Redux Toolkit", "MaterialUI", "CSS"],
+    "responsibilities": ["End-to-end frontend"],
+    "logo": "https://foodlogai.innercircletalent.com/logo.png"
+  }
+]
